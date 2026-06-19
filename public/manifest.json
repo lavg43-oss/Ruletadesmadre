@@ -1,0 +1,17 @@
+{
+  "name": "Rueda del Desmadre",
+  "short_name": "Rueda",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#171717",
+  "theme_color": "#171717",
+  "description": "Tu juego de retos picantes",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCIgZmlsbD0iIzYzNjZmMSIvPjx0ZXh0IHg9IjM1IiB5PSI2NSIgZm9udC1zaXplPSI0NSIgZmlsbD0iI2ZmZiI+8J+OhTwvdGV4dD48L3N2Zz4=",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

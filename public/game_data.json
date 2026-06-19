@@ -1,0 +1,1013 @@
+{
+  "informacion": "Exportación completa de La Rueda del Desmadre.",
+  "logica_principal": {
+    "1": "Pantalla de Lobby: Gestión de arreglo de jugadores.",
+    "2": "Pantalla de Packs: Habilitación de rangos de ID de cartas para filtrar el mazo.",
+    "3": "Pantalla de Juego: Ruleta visual en CSS.",
+    "4": "Motor: Se calcula un grado al azar, se detiene, y según el ángulo se busca una carta de esa categoría. Se ignora la carta si su ID ya está en el Set de cartasJugadas."
+  },
+  "total_preguntas": 200,
+  "preguntas": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál es la peor mentira que has dicho para zafarte de un compromiso social?"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Alguna vez has revisado el celular de tu pareja o ex a escondidas? Si es sí, ¿qué encontraste?"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿A quién de esta mesa le tenías mala onda antes de conocerlo bien?"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál ha sido tu peor experiencia en una primera cita?"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has robado algo alguna vez, por más pequeño que sea? ¿Qué fue?"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Qué es lo más ridículo que has buscado en Google recientemente?"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Alguna vez has fingido un orgasmo o que te encantó un regalo para no hacer sentir mal al otro?"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál es tu gusto culposo musical que te daría pena que supieran en tu trabajo?"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has usado el cepillo de dientes de alguien más sin decirle?"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Qué excusa falsa usas más seguido para llegar tarde?"
+    },
+    {
+      "id": 11,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Te has escapado de pagar la cuenta en un restaurante o bar?"
+    },
+    {
+      "id": 12,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Alguna vez mandaste un mensaje candente o insultante a la persona equivocada? Cuenta la historia."
+    },
+    {
+      "id": 13,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál es el peor oso que has hecho estando borracho(a)?"
+    },
+    {
+      "id": 14,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Te has sentido atraído(a) por el familiar de un amigo(a)?"
+    },
+    {
+      "id": 15,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Qué secreto te contó alguien que juraste no decir, pero terminaste soltando?"
+    },
+    {
+      "id": 16,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has llorado para conseguir que un tránsito no te multe o para salir de un problema?"
+    },
+    {
+      "id": 17,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál es la compra más inútil y cara que has hecho por impulso?"
+    },
+    {
+      "id": 18,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes que borrar todas tus redes sociales para siempre, o tu historial de búsqueda se publica en el periódico local. ¿Qué eliges?"
+    },
+    {
+      "id": 19,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Hay un apocalipsis zombie. Solo puedes elegir a UNA persona de esta mesa para sobrevivir. ¿A quién eliges y por qué?"
+    },
+    {
+      "id": 20,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te ofrecen $10 millones de pesos, pero tienes que pasar 5 años en la cárcel. ¿Aceptas?"
+    },
+    {
+      "id": 21,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Descubres que tu mejor amigo(a) está siendo engañado. Si le dices, la pareja te arruina la vida laboral. ¿Hablas o callas?"
+    },
+    {
+      "id": 22,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Solo puedes escuchar una canción por el resto de tu vida. ¿Cuál es?"
+    },
+    {
+      "id": 23,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te ganas la lotería, pero tienes que donar el 90% a tu peor enemigo. ¿La cobras?"
+    },
+    {
+      "id": 24,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes que tatuarte el nombre de tu ex o la cara de un político en el brazo. ¿Qué prefieres?"
+    },
+    {
+      "id": 25,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te dicen la fecha exacta de tu muerte, pero no la causa. ¿Quieres saberla?"
+    },
+    {
+      "id": 26,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes que mudarte a un país del cual no hablas el idioma, sin dinero. ¿A cuál vas?"
+    },
+    {
+      "id": 27,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Puedes retroceder en el tiempo 10 años, pero pierdes a todas las personas que conociste en ese lapso. ¿Lo haces?"
+    },
+    {
+      "id": 28,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te ofrecen ser el presidente del país, pero si fallas te exilian. ¿Tomas el cargo?"
+    },
+    {
+      "id": 29,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Encuentras una cartera con 100 mil pesos en efectivo y una identificación de un millonario. ¿La devuelves íntegra?"
+    },
+    {
+      "id": 30,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes que vivir un año sin internet o un año sin comer carne. ¿Qué sacrificas?"
+    },
+    {
+      "id": 31,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Para salvar a tu mascota, tienes que cortarte un dedo. ¿Lo haces?"
+    },
+    {
+      "id": 32,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te obligan a participar en un reality show de supervivencia extrema. ¿Cuál sería tu debilidad fatal?"
+    },
+    {
+      "id": 33,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Descubres un complot alienígena, pero si lo cuentas te encierran en un manicomio. ¿Qué haces?"
+    },
+    {
+      "id": 34,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes la oportunidad de saber qué piensan de ti los demás, pero no puedes apagarlo nunca. ¿Aceptas el poder?"
+    },
+    {
+      "id": 35,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías tener siempre mal aliento o que siempre te huelan las axilas?"
+    },
+    {
+      "id": 36,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías saber todos los idiomas del mundo pero ser mudo, o hablar un solo idioma pero convencer a todos de lo que sea?"
+    },
+    {
+      "id": 37,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías no volver a comer tacos o no volver a tomar alcohol nunca?"
+    },
+    {
+      "id": 38,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías tener intimidad con alguien que tiene cuerpo de modelo y cara horrible, o cara de modelo y cuerpo horrible?"
+    },
+    {
+      "id": 39,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías llegar siempre una hora tarde a todo o siempre una hora antes?"
+    },
+    {
+      "id": 40,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías perder todos tus dientes o todo tu cabello?"
+    },
+    {
+      "id": 41,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías saber cómo vas a morir o cuándo vas a morir?"
+    },
+    {
+      "id": 42,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías vivir sin música o sin televisión/películas?"
+    },
+    {
+      "id": 43,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías ser pobre pero rodeado de amor sincero, o inmensamente rico pero completamente solo?"
+    },
+    {
+      "id": 44,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías pelear contra un pato del tamaño de un caballo o contra cien caballos del tamaño de un pato?"
+    },
+    {
+      "id": 45,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías que tu pareja te sea infiel físicamente una vez, o emocionalmente por meses sin contacto físico?"
+    },
+    {
+      "id": 46,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías vivir el resto de tu vida en invierno perpetuo o en un verano de 45°C sin aire acondicionado?"
+    },
+    {
+      "id": 47,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías perder tu celular hoy sin respaldo, o tus llaves del carro/casa en otra ciudad?"
+    },
+    {
+      "id": 48,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías tener que decir todo lo que piensas, o no poder volver a hablar nunca?"
+    },
+    {
+      "id": 49,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías que todos tus mensajes de WhatsApp se hicieran públicos, o tus fotos de la galería?"
+    },
+    {
+      "id": 50,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías ser un genio feo o un idiota súper atractivo?"
+    },
+    {
+      "id": 51,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías dormir siempre en una cama de piedras o despertar todos los días con una cubetada de agua helada?"
+    },
+    {
+      "id": 52,
+      "categoriaId": 4,
+      "texto": "El Nominado: A la cuenta de 3, señalen al que manda los peores mensajes a sus ex cuando está ebrio(a)."
+    },
+    {
+      "id": 53,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que es más probable que se robe los centros de mesa en una boda."
+    },
+    {
+      "id": 54,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que seguramente oculta los secretos más oscuros en su celular."
+    },
+    {
+      "id": 55,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que es más probable que llore viendo una película de dibujos animados."
+    },
+    {
+      "id": 56,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que creen que aguantaría menos en una pelea a golpes."
+    },
+    {
+      "id": 57,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al más codo/tacaño a la hora de dividir la cuenta."
+    },
+    {
+      "id": 58,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona que tiene los peores gustos para elegir pareja."
+    },
+    {
+      "id": 59,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que sobreviviría menos tiempo en una isla desierta."
+    },
+    {
+      "id": 60,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que más altera la verdad (echa mentiras) cuando cuenta una anécdota."
+    },
+    {
+      "id": 61,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que se ofende más rápido por cualquier tontería."
+    },
+    {
+      "id": 62,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al más probable de gastarse su quincena el primer día."
+    },
+    {
+      "id": 63,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que ronca como tractor oxidado."
+    },
+    {
+      "id": 64,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que tiene el historial amoroso más tóxico de la mesa."
+    },
+    {
+      "id": 65,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que es más probable que se tropiece estando completamente sobrio."
+    },
+    {
+      "id": 66,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona más manipuladora para conseguir lo que quiere."
+    },
+    {
+      "id": 67,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que sería el líder de una secta."
+    },
+    {
+      "id": 68,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que más se tarda arreglándose antes de salir."
+    },
+    {
+      "id": 69,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Todos en la mesa tienen que decir su placer culposo más grande. El más aburrido toma."
+    },
+    {
+      "id": 70,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Del 1 al 10, que cada uno califique qué tan atractivo(a) se considera. Sin falsa humildad."
+    },
+    {
+      "id": 71,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Todos deben revelar qué pensaron de la persona a su derecha la primera vez que la vieron."
+    },
+    {
+      "id": 72,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Cuál es la teoría conspirativa que en el fondo todos creen que es real?"
+    },
+    {
+      "id": 73,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Digan el lugar más extraño donde han tenido relaciones íntimas. El que se quede callado tiene castigo."
+    },
+    {
+      "id": 74,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Cada jugador debe decir una cosa que envidia de la persona en turno."
+    },
+    {
+      "id": 75,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Que cada quien muestre la última foto de su galería. Sin trampas."
+    },
+    {
+      "id": 76,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Cuál ha sido el peor regalo que han recibido y tuvieron que fingir que les gustaba?"
+    },
+    {
+      "id": 77,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Cuál es el peor consejo de vida que han seguido?"
+    },
+    {
+      "id": 78,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Que todos confiesen a qué edad dejaron de creer en Santa Claus/Reyes Magos y cómo se enteraron."
+    },
+    {
+      "id": 79,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Digan un talento inútil que tengan. El grupo vota por el mejor."
+    },
+    {
+      "id": 80,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Cuál es la mentira más común que le dicen a sus familias?"
+    },
+    {
+      "id": 81,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Confiesen la mayor cantidad de tiempo que han pasado sin bañarse."
+    },
+    {
+      "id": 82,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Cuál es su fobia más irracional?"
+    },
+    {
+      "id": 83,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Compartan el apodo más vergonzoso que les han puesto en su vida."
+    },
+    {
+      "id": 84,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Qué es lo más caro que han roto y no han pagado?"
+    },
+    {
+      "id": 85,
+      "categoriaId": 6,
+      "texto": "Comodín: Pregunta Doble. Puedes hacerle DOS preguntas íntimas a la persona que tú elijas. Tienen que contestar con la verdad."
+    },
+    {
+      "id": 86,
+      "categoriaId": 6,
+      "texto": "Comodín: Inmunidad. Guarda esta carta; te salva de responder cualquier pregunta durante el juego (un solo uso)."
+    },
+    {
+      "id": 87,
+      "categoriaId": 6,
+      "texto": "Comodín: Espejo Incómodo. Elige a una persona. Esa persona debe responder la misma pregunta que te acaba de tocar a ti."
+    },
+    {
+      "id": 88,
+      "categoriaId": 6,
+      "texto": "Comodín: Pregunta del Abogado. Tienes derecho a negarte a contestar una pregunta picante esta noche sin tomar castigo. Guárdalo bien."
+    },
+    {
+      "id": 89,
+      "categoriaId": 6,
+      "texto": "Comodín: Retroceso. El turno pasa inmediatamente a la persona a tu izquierda y ella tira otra vez."
+    },
+    {
+      "id": 90,
+      "categoriaId": 6,
+      "texto": "Comodín: El Titiritero. Elige qué jugador responderá la próxima pregunta, sin importar de quién sea el turno."
+    },
+    {
+      "id": 91,
+      "categoriaId": 6,
+      "texto": "Comodín: Doble Riesgo. Tira la ruleta otra vez y debes responder DOS preguntas seguidas de la categoría que salga."
+    },
+    {
+      "id": 92,
+      "categoriaId": 6,
+      "texto": "Comodín: Interrogador. Inventa una pregunta picante sobre alguien de la mesa y obliga a otra persona a responderla."
+    },
+    {
+      "id": 93,
+      "categoriaId": 6,
+      "texto": "Comodín: Ruleta Rusa de Preguntas. Haz una pregunta sexual fuerte; todos tienen que responderla, empezando por ti."
+    },
+    {
+      "id": 94,
+      "categoriaId": 6,
+      "texto": "Comodín: Transferencia. Pásale tu turno a la persona que consideres que tiene más secretos sucios guardados."
+    },
+    {
+      "id": 95,
+      "categoriaId": 6,
+      "texto": "Comodín: Inversión. Durante el próximo turno, nadie puede contestar. El jugador debe adivinar la respuesta picante de la persona a su lado."
+    },
+    {
+      "id": 96,
+      "categoriaId": 6,
+      "texto": "Comodín: Verdad Anónima. Haz una pregunta de 'Sí o No'. Todos en la mesa cierran los ojos y levantan la mano si la respuesta es Sí."
+    },
+    {
+      "id": 97,
+      "categoriaId": 6,
+      "texto": "Comodín: El Confesor. Elige a un jugador. Ese jugador te puede preguntar lo que sea y estás obligado a decir la verdad."
+    },
+    {
+      "id": 98,
+      "categoriaId": 6,
+      "texto": "Comodín: Rebobinar. Vuelve a tirar la ruleta, pero esta vez tú eliges quién de la mesa va a responder la pregunta por ti."
+    },
+    {
+      "id": 99,
+      "categoriaId": 6,
+      "texto": "Comodín: Dictador de Turnos. Tú decides qué categoría juega el siguiente participante, ignorando la ruleta."
+    },
+    {
+      "id": 100,
+      "categoriaId": 6,
+      "texto": "Comodín: Pregunta Extrema. Inventa una situación límite picante y oblígalo a responder al jugador a tu izquierda."
+    },
+    {
+      "id": 101,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿A quién de este grupo te darías si no hubiera consecuencias?"
+    },
+    {
+      "id": 102,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Qué es lo más sucio o atrevido que has mandado por mensaje?"
+    },
+    {
+      "id": 103,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Alguna vez has fantaseado con el ex de algún amigo o amiga?"
+    },
+    {
+      "id": 104,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál es la fantasía más rara que has cumplido o quieres cumplir?"
+    },
+    {
+      "id": 105,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Dónde es el lugar más arriesgado donde tuviste intimidad?"
+    },
+    {
+      "id": 106,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has fingido estar ebrio(a) para atreverte a besar a alguien? ¿A quién?"
+    },
+    {
+      "id": 107,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has tenido un sueño húmedo con alguien presente? Si no quieres decir quién, toma un shot."
+    },
+    {
+      "id": 108,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Qué es lo más vergonzoso que te ha pasado en pleno acto?"
+    },
+    {
+      "id": 109,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has grabado un video íntimo? ¿Lo sigues teniendo?"
+    },
+    {
+      "id": 110,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Cuál es el fetiche más extraño que te han pedido o has pedido?"
+    },
+    {
+      "id": 111,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Alguna vez has sido infiel y nunca te descubrieron?"
+    },
+    {
+      "id": 112,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿A qué edad perdiste la virginidad y cómo lo calificas del 1 al 10?"
+    },
+    {
+      "id": 113,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Te has arrepentido de acostarte con alguien al día siguiente?"
+    },
+    {
+      "id": 114,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Alguna vez has tenido onda o algo físico con alguien de tu trabajo/escuela en secreto?"
+    },
+    {
+      "id": 115,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has usado aplicaciones de citas estando en una relación?"
+    },
+    {
+      "id": 116,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Con cuántas personas te has acostado? Si no quieres decir el número exacto, toma dos shots."
+    },
+    {
+      "id": 117,
+      "categoriaId": 1,
+      "texto": "Confiesa: ¿Has tenido un 'amigo(a) con derechos' que se enamoró de ti y te hiciste pendejo(a)?"
+    },
+    {
+      "id": 118,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tu pareja te da permiso para tener intimidad con una persona de esta mesa una sola noche. ¿A quién elegirías y por qué?"
+    },
+    {
+      "id": 119,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes un superpoder para revelar el secreto íntimo mejor guardado de alguien de la mesa. ¿A quién elegirías?"
+    },
+    {
+      "id": 120,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Si hoy fuera el fin del mundo y tuvieras que hacer un trío con dos personas de esta sala, ¿quiénes serían?"
+    },
+    {
+      "id": 121,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Alguien te ofrece 100 mil dólares por ver tu historial de navegación y tu galería enfrente de todos tus exes. ¿Aceptas?"
+    },
+    {
+      "id": 122,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te cachan en plena movida tus suegros o se filtra tu pack en tu grupo del trabajo. ¿Qué eliges que pase?"
+    },
+    {
+      "id": 123,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Descubres que tu mejor amigo(a) le es infiel a su pareja. ¿Se lo cuentas a la pareja o guardas el secreto hasta la tumba?"
+    },
+    {
+      "id": 124,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te dan la opción de borrar de tu mente todas tus experiencias íntimas pasadas y empezar de cero, o quedarte como estás. ¿Qué decides?"
+    },
+    {
+      "id": 125,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes que seducir a la primera persona que pase por la calle o mueres. ¿Cuál es la primera frase que le dirías?"
+    },
+    {
+      "id": 126,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tu pareja de repente te pide en el acto que te pongas un disfraz ridículo de gallina. ¿Continúas o te vas?"
+    },
+    {
+      "id": 127,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tienes que elegir entre nunca volver a tener intimidad o tener intimidad todos los días obligatoriamente sin descanso. ¿Qué eliges?"
+    },
+    {
+      "id": 128,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Puedes saber quién de tus amigos se ha tocado pensando en ti, a cambio de que todos sepan con quién te tocas tú. ¿Aceptas?"
+    },
+    {
+      "id": 129,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Tu pareja te confiesa que hace 5 años (antes de conocerte) se acostó con tu mejor amigo(a). ¿Cómo reaccionas?"
+    },
+    {
+      "id": 130,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Solo puedes elegir a una persona de esta mesa para que sea tu única pareja sexual de por vida y no puedes cambiarla. ¿A quién eliges?"
+    },
+    {
+      "id": 131,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Pierdes la habilidad de llegar al clímax, pero ganas 10 millones de dólares; o llegas al clímax siempre, pero vives en quiebra. ¿Qué escoges?"
+    },
+    {
+      "id": 132,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Te encuentran un juguete para adultos encendido en la bolsa de seguridad del aeropuerto, o tu mamá te lo encuentra en tu cama. ¿Cuál prefieres?"
+    },
+    {
+      "id": 133,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Si te despertaras mañana siendo del sexo opuesto por 24 horas, ¿qué es lo primero que harías?"
+    },
+    {
+      "id": 134,
+      "categoriaId": 2,
+      "texto": "Situación Límite: Una bruja te maldice para usar solo una posición en la cama el resto de tu vida sin variar ni un centímetro. ¿Cuál eliges?"
+    },
+    {
+      "id": 135,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías que te descubran siéndole infiel a tu pareja, o descubrir a tu pareja siéndote infiel pero nunca poder decirle que sabes?"
+    },
+    {
+      "id": 136,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías tener sexo pésimo todos los días de tu vida, o sexo increíble pero solo una vez al año?"
+    },
+    {
+      "id": 137,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías enamorarte de alguien que no te atrae físicamente nada, o tener sexo increíble con alguien a quien odias profundamente?"
+    },
+    {
+      "id": 138,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías que tu pareja hable con la voz de Mickey Mouse durante el sexo, o que llore desconsoladamente cada vez que terminan?"
+    },
+    {
+      "id": 139,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías que tus papás vean tu historial de navegación oculto, o que tu pareja lea todas tus conversaciones privadas de hace 3 años?"
+    },
+    {
+      "id": 140,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías descubrir que tú eres muy malo(a) en la cama, o descubrir que todos tus exes fingían?"
+    },
+    {
+      "id": 141,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías hacer un trío con tus mejores amigos, o con completos desconocidos que no volverás a ver?"
+    },
+    {
+      "id": 142,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías enviar sin querer una nudes a tu jefe(a), o a tu abuela/abuelo?"
+    },
+    {
+      "id": 143,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías gemir el nombre de tu ex frente a tu pareja actual, o que tu pareja gima el nombre de su ex?"
+    },
+    {
+      "id": 144,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías nunca volver a besar, o nunca volver a usar las manos durante el sexo?"
+    },
+    {
+      "id": 145,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías siempre llegar al clímax en menos de 1 minuto, o tardar siempre 3 horas para apenas terminar?"
+    },
+    {
+      "id": 146,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías acostarte con un primo lejano sin saberlo y que luego te digan, o acostarte sabiendo que es y mantenerlo en secreto?"
+    },
+    {
+      "id": 147,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías estar esposado a la persona que menos soportas por 24 horas, o a la persona que más te gusta pero sin poder tocarla?"
+    },
+    {
+      "id": 148,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías despertar desnudo(a) en medio del transporte público, o despertar al lado de tu peor enemigo sin recordar nada?"
+    },
+    {
+      "id": 149,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías tener que mandarle una foto en traje de baño a tu maestro(a), o que se publique como anuncio en facebook?"
+    },
+    {
+      "id": 150,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías un compañero sexual que huele mal pero besa genial, o uno que huele genial y besa con los dientes?"
+    },
+    {
+      "id": 151,
+      "categoriaId": 3,
+      "texto": "El Dilema: ¿Preferirías tener sexo en una biblioteca silenciosa y que te expulsen, o en el baño de un bar asqueroso?"
+    },
+    {
+      "id": 152,
+      "categoriaId": 4,
+      "texto": "El Nominado: Cuenten hasta 3 y señalen a la persona que tiene más cara de ser infiel."
+    },
+    {
+      "id": 153,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona de la mesa que creen que tiene los fetiches más raros."
+    },
+    {
+      "id": 154,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a alguien que seguramente manda las mejores nudes de todo el grupo."
+    },
+    {
+      "id": 155,
+      "categoriaId": 4,
+      "texto": "El Nominado: ¿Quién de aquí se acostaría con la pareja de otro jugador sin remordimiento? Señalen en 3, 2, 1."
+    },
+    {
+      "id": 156,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona que creen que es la más ruidosa en la cama."
+    },
+    {
+      "id": 157,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que es más fácil de convencer (o briagar) para acabar la noche en su casa."
+    },
+    {
+      "id": 158,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona que seguramente se liga a alguien esta misma noche."
+    },
+    {
+      "id": 159,
+      "categoriaId": 4,
+      "texto": "El Nominado: ¿Quién de la mesa creen que perdonaría unos buenos cuernos por amor?"
+    },
+    {
+      "id": 160,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona que gasta más dinero tratando de impresionar a alguien para llevárselo a la cama."
+    },
+    {
+      "id": 161,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que creen que es más probable que termine teniendo sugar daddy/mommy."
+    },
+    {
+      "id": 162,
+      "categoriaId": 4,
+      "texto": "El Nominado: A la cuenta de 3, señalen al que de seguro ya ha hecho un trío y se lo tiene callado."
+    },
+    {
+      "id": 163,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que se ve más inocente, pero en el fondo es el/la mayor diablo(a)."
+    },
+    {
+      "id": 164,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que seguramente duraría menos de 5 minutos en el primer round."
+    },
+    {
+      "id": 165,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al que se despierta al día siguiente y sale corriendo sin decir adiós."
+    },
+    {
+      "id": 166,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a la persona que se acostaría por dinero si el precio es correcto."
+    },
+    {
+      "id": 167,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen al jugador que tiene menos límites a puerta cerrada."
+    },
+    {
+      "id": 168,
+      "categoriaId": 4,
+      "texto": "El Nominado: Señalen a quién le darían un 'Pase Libre' si tuvieran que elegir a alguien del cuarto."
+    },
+    {
+      "id": 169,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿A qué famoso/a se darían sin pensarlo dos veces? El que tarde más de 5 segundos en responder, toma."
+    },
+    {
+      "id": 170,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Todos deben revelar qué parte del cuerpo del sexo opuesto/persona de su interés les excita más."
+    },
+    {
+      "id": 171,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Escojan a dos personas de este grupo que harían la mejor pareja sexual y digan por qué."
+    },
+    {
+      "id": 172,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Cada uno cuenta la cosa más atrevida que ha hecho en estado de ebriedad. El grupo vota por la más loca, los demás toman."
+    },
+    {
+      "id": 173,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Todos confiesen su gusto culposo más extraño en la cama. El más raro según el grupo se salva de tomar."
+    },
+    {
+      "id": 174,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Digan cuántas horas o días completos han estado sin salir de la habitación por estar teniendo intimidad. El récord toma."
+    },
+    {
+      "id": 175,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Revelen su posición favorita. Si alguien coincide contigo, hacen 'salud' y toman."
+    },
+    {
+      "id": 176,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Todos cierran los ojos. El que alguna vez haya sido infiel sin que lo descubran, tome un trago en silencio."
+    },
+    {
+      "id": 177,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Que tire la primera piedra (o se tome el primer shot) el que haya fingido durante el acto para que ya terminara todo rápidamente."
+    },
+    {
+      "id": 178,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Todos digan su fetiche o fantasía más extraña en voz alta. Si hay demasiado silencio incómodo, beban todos."
+    },
+    {
+      "id": 179,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Confiesen si alguna vez han enviado o recibido una foto subida de tono estando en horario de trabajo o la escuela."
+    },
+    {
+      "id": 180,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Propongan un juego de roles y digan quién de la mesa creen que lo actuaría espectacular."
+    },
+    {
+      "id": 181,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Ronda Rápida: 'Yo nunca nunca he tenido relaciones en un lugar público con riesgo a que me vieran'. El que lo haya hecho, bebe."
+    },
+    {
+      "id": 182,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: ¿Quién de este grupo sería tu 'llamadita de emergencia' a las 3 am si estuvieras cien por ciento soltero/a y urgido(a)?"
+    },
+    {
+      "id": 183,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Beban todas las mujeres que han revisado el celular de su pareja. Luego beban todos los hombres que han borrado chats."
+    },
+    {
+      "id": 184,
+      "categoriaId": 5,
+      "texto": "Ronda Grupal: Describan con el título de una película (humor, terror o acción) cómo es su vida íntima actualmente (ej: 'Rápidos y Furiosos', 'Solo en Casa')."
+    },
+    {
+      "id": 185,
+      "categoriaId": 6,
+      "texto": "Comodín Picante: Tienes el poder de obligar a cualquier persona de la mesa a decir el nombre de la persona con la que mejor la pasó en la cama."
+    },
+    {
+      "id": 186,
+      "categoriaId": 6,
+      "texto": "Comodín Picante: Escoge a una persona. Te tiene que describir explícitamente cómo te seduciría usando solamente 3 palabras."
+    },
+    {
+      "id": 187,
+      "categoriaId": 6,
+      "texto": "Comodín de Poder: Eres el 'Maestro de los Secretos'. Hasta tu próximo turno, puedes exigir a alguien que profundice en los detalles de su respuesta picante."
+    },
+    {
+      "id": 188,
+      "categoriaId": 6,
+      "texto": "Comodín Inmune: Te salvaste. Le pasas tu turno a la persona que consideres más atractiva de la mesa. Esa persona gira la ruleta y responde."
+    },
+    {
+      "id": 189,
+      "categoriaId": 6,
+      "texto": "Comodín Picante: Pregunta sin filtro. Hazle una pregunta súper íntima a cualquier jugador sobre su cuerpo o sobre qué le gusta que le hagan."
+    },
+    {
+      "id": 190,
+      "categoriaId": 6,
+      "texto": "Comodín Picante: Verdad Extrema. Di una pregunta muy subida de tono de 'Sí o No'. Todos cierran los ojos y levantan la mano si la respuesta es afirmativa."
+    },
+    {
+      "id": 191,
+      "categoriaId": 6,
+      "texto": "Comodín Indiscreto: Castigo o Revelación compartida. Elige a otra persona. Ambos deben confesar un fetiche que nadie de la mesa sepa, o beber mucho."
+    },
+    {
+      "id": 192,
+      "categoriaId": 6,
+      "texto": "Comodín de Confesión: Debes susurrar al oído del jugador a tu derecha algo indecente que fantaseaste hoy. El jugador a tu derecha dice si te cree o no."
+    },
+    {
+      "id": 193,
+      "categoriaId": 6,
+      "texto": "Comodín Físico Visual: Di una característica física íntima (ej: tatuaje cerca a zona privada). Todos los que la tengan toman y confiesan que la tienen."
+    },
+    {
+      "id": 194,
+      "categoriaId": 6,
+      "texto": "Comodín Psíquico: Trata de adivinar el lugar más raro donde ha tenido intimidad el jugador a tu izquierda. Si fallas, tú tomas. Si aciertas, él/ella dice la historia."
+    },
+    {
+      "id": 195,
+      "categoriaId": 6,
+      "texto": "Comodín Excepción: Puedes pedirle a la persona en frente que cuente un secreto íntimo súper vergonzoso. Si no lo hace, bebe 3 tragos de castigo."
+    },
+    {
+      "id": 196,
+      "categoriaId": 6,
+      "texto": "Comodín Boomerang: Hazle una pregunta sexual directa y explícita a cualquier jugador. Si contesta, tú tomas. Si no la contesta, él toma el doble."
+    },
+    {
+      "id": 197,
+      "categoriaId": 6,
+      "texto": "Comodín Creador Picante: Inventa una regla que deben seguir todos (ej: 'quien diga Sí, debe usar una voz seductora'). Dura 3 rondas antes de borrarse."
+    },
+    {
+      "id": 198,
+      "categoriaId": 6,
+      "texto": "Comodín Acusador: Pregúntale a todo el grupo con quién de la mesa se fugarían a un hotel en este instante para no salir por 2 días. El último bebe."
+    },
+    {
+      "id": 199,
+      "categoriaId": 6,
+      "texto": "Comodín Detector: Tienes derecho a preguntarle directamente a alguien de la mesa si alguna vez se imaginó contingo mientras estaba con alguien más."
+    },
+    {
+      "id": 200,
+      "categoriaId": 6,
+      "texto": "Comodín Psicoanalista: Dinos cuál crees que es la mayor debilidad en la cama de la persona que tienes a la derecha. Si crees estar en lo correcto, esa persona bebe."
+    }
+  ],
+  "codigo_completo_main": "/**\n * @license\n * SPDX-License-Identifier: Apache-2.0\n */\n\nimport { useState } from \"react\";\nimport { cartasData, Carta } from \"./data/cartas\";\nimport { Plus, Users, Play, Shuffle, MessageSquare, AlertTriangle, Scale, Pointer, Sparkles, Lock, ShoppingCart, CheckCircle2 } from \"lucide-react\";\n\nconst categoriasConfig = [\n  { id: 1, name: \"Confiesa\", color: \"#facc15\", icon: MessageSquare, startDeg: 0 },\n  { id: 2, name: \"Situación\", color: \"#4ade80\", icon: AlertTriangle, startDeg: 60 },\n  { id: 3, name: \"El Dilema\", color: \"#f87171\", icon: Scale, startDeg: 120 },\n  { id: 4, name: \"El Nominado\", color: \"#60a5fa\", icon: Pointer, startDeg: 180 },\n  { id: 5, name: \"Grupales\", color: \"#c084fc\", icon: Users, startDeg: 240 },\n  { id: 6, name: \"Comodín\", color: \"#fb923c\", icon: Sparkles, startDeg: 300 }\n];\n\nconst packsConfig = [\n  { id: 'base', name: 'Clásico', description: 'Las 100 preguntas originales para arrancar.', price: 'Gratis', unlocked: true, range: [1, 100] },\n  { id: 'picante', name: 'Picante 🌶️', description: '100 cartas extras sin censura y subidas de tono.', price: 'Gratis', unlocked: true, range: [101, 200] },\n  { id: 'desmadre', name: 'Desmadre Total 🔥', description: 'Retos físicos extremos y confesiones oscuras.', price: '$2.99', unlocked: false, range: [201, 300] },\n  { id: 'parejas', name: 'Noche de Parejas 🥂', description: 'Tensión, celos y preguntas incómodas entre parejas.', price: '$1.99', unlocked: false, range: [301, 400] },\n];\n\nexport default function App() {\n  const [gameState, setGameState] = useState<\"lobby\" | \"packs\" | \"game\">(\"lobby\");\n  const [jugadores, setJugadores] = useState<string[]>([]);\n  const [nuevoJugador, setNuevoJugador] = useState(\"\");\n  const [selectedPacks, setSelectedPacks] = useState<string[]>(['base', 'picante']);\n  \n  const [turnoActualIndex, setTurnoActualIndex] = useState(0);\n  const [cartasJugadas, setCartasJugadas] = useState<Set<number>>(new Set());\n  const [cartaActual, setCartaActual] = useState<Carta | null>(null);\n  const [mazoActivo, setMazoActivo] = useState<Carta[]>([]);\n  \n  const [girando, setGirando] = useState(false);\n  const [rotation, setRotation] = useState(0);\n\n  const agregarJugador = () => {\n    const nombre = nuevoJugador.trim();\n    if (nombre && !jugadores.includes(nombre)) {\n      setJugadores([...jugadores, nombre]);\n      setNuevoJugador(\"\");\n    }\n  };\n\n  const irAPacks = () => {\n    setGameState(\"packs\");\n  };\n\n  const togglePack = (packId: string, unlocked: boolean) => {\n    if (!unlocked) return; // For now locked packs cannot be selected\n    \n    setSelectedPacks(prev => {\n       if (prev.includes(packId)) {\n          if (prev.length === 1) return prev; // Keep at least one pack\n          return prev.filter(id => id !== packId);\n       }\n       return [...prev, packId];\n    });\n  };\n\n  const iniciarJuego = () => {\n    const activePacks = packsConfig.filter(p => selectedPacks.includes(p.id));\n    const deck = cartasData.filter(carta => {\n      return activePacks.some(pack => carta.id >= pack.range[0] && carta.id <= pack.range[1]);\n    });\n    \n    setMazoActivo(deck.length > 0 ? deck : cartasData.slice(0, 100));\n    setTurnoActualIndex(0);\n    setCartasJugadas(new Set());\n    setCartaActual(null);\n    setGameState(\"game\");\n  };\n\n  const girarRuleta = () => {\n    if (girando) return;\n    setGirando(true);\n    \n    // Simulate finding a category with available cards\n    const doSpin = () => {\n      let categoria = Math.floor(Math.random() * 6) + 1; // 1 to 6\n      let opciones = mazoActivo.filter((c) => c.categoriaId === categoria && !cartasJugadas.has(c.id));\n      \n      // Fallback if that category is empty, find any available category\n      if (opciones.length === 0) {\n        opciones = mazoActivo.filter((c) => !cartasJugadas.has(c.id));\n      }\n\n      const targetRotation = rotation + (360 * (2 + Math.floor(Math.random() * 2))) + Math.floor(Math.random() * 300) + 30;\n      setRotation(targetRotation);\n\n      setTimeout(() => {\n        if (opciones.length > 0) {\n          const elegida = opciones[Math.floor(Math.random() * opciones.length)];\n          setCartasJugadas(new Set([...cartasJugadas, elegida.id]));\n          setCartaActual(elegida);\n        }\n        setGirando(false);\n      }, 2500); // Wait for transition\n    };\n\n    doSpin();\n  };\n\n  const siguienteTurno = () => {\n    setTurnoActualIndex((prev) => (prev + 1) % jugadores.length);\n    setCartaActual(null);\n  };\n\n  return (\n    <div className=\"min-h-screen bg-neutral-900 text-neutral-100 font-sans flex flex-col items-center p-4 sm:p-6 md:p-12\">\n      {gameState === \"lobby\" && (\n        <div className=\"max-w-md w-full flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500 mt-12\">\n          <div className=\"text-center space-y-2 mb-4\">\n             <h1 className=\"text-3xl font-bold tracking-tight text-white\">La Rueda del Desmadre</h1>\n             <p className=\"text-neutral-400\">Agrega a tus amigos para comenzar</p>\n          </div>\n          \n          <div className=\"bg-neutral-800/50 border border-neutral-800 rounded-2xl p-6\">\n            <div className=\"flex gap-2 mb-6\">\n              <input\n                type=\"text\"\n                value={nuevoJugador}\n                onChange={(e) => setNuevoJugador(e.target.value)}\n                onKeyDown={(e) => e.key === \"Enter\" && agregarJugador()}\n                placeholder=\"Nombre del jugador\"\n                className=\"flex-1 bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-3 text-neutral-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow\"\n              />\n              <button\n                onClick={agregarJugador}\n                disabled={!nuevoJugador.trim()}\n                className=\"bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 text-white rounded-xl px-4 flex items-center justify-center transition-colors\"\n              >\n                <Plus className=\"w-5 h-5\" />\n              </button>\n            </div>\n\n            <div className=\"flex items-center gap-2 text-neutral-400 font-medium mb-4\">\n               <Users className=\"w-4 h-4\" />\n               <h2>Jugadores ({jugadores.length})</h2>\n            </div>\n            \n            {jugadores.length === 0 ? (\n               <div className=\"py-8 text-center text-neutral-500 border border-dashed border-neutral-700 rounded-xl bg-neutral-900/50\">\n                  Nadie ha entrado al lobby aún\n               </div>\n            ) : (\n               <div className=\"space-y-2 max-h-60 overflow-y-auto pr-2 custom-scrollbar\">\n                {jugadores.map((jugador, idx) => (\n                  <div key={idx} className=\"bg-neutral-900 border border-neutral-800 px-4 py-3 rounded-xl flex items-center shadow-sm\">\n                    <span className=\"w-6 h-6 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-xs font-bold mr-3\">{idx + 1}</span>\n                    {jugador}\n                  </div>\n                ))}\n              </div>\n            )}\n          </div>\n          \n          <button\n            onClick={irAPacks}\n            disabled={jugadores.length < 2}\n            className=\"w-full bg-indigo-600 hover:bg-indigo-500 disabled:bg-neutral-800 disabled:text-neutral-500 text-white rounded-xl px-6 py-4 font-medium transition-colors shadow-lg shadow-indigo-600/20 text-lg flex justify-center items-center gap-2 mt-4\"\n          >\n            Siguiente <Play className=\"w-5 h-5\" />\n          </button>\n          \n          {jugadores.length < 2 && (\n             <p className=\"text-center text-xs text-neutral-500\">Se necesitan al menos 2 jugadores</p>\n          )}\n        </div>\n      )}\n\n      {gameState === \"packs\" && (\n        <div className=\"max-w-md w-full flex flex-col gap-6 animate-in fade-in slide-in-from-right-4 duration-500 mt-12 pb-24\">\n          <div className=\"text-center space-y-2 mb-2\">\n             <h1 className=\"text-3xl font-bold tracking-tight text-white mb-2\">Packs de Expansión</h1>\n             <p className=\"text-neutral-400\">Selecciona los mazos que quieras incluir en tu partida</p>\n          </div>\n\n          <div className=\"space-y-4\">\n             {packsConfig.map(pack => {\n                const isSelected = selectedPacks.includes(pack.id);\n                return (\n                  <button\n                    key={pack.id}\n                    onClick={() => togglePack(pack.id, pack.unlocked)}\n                    disabled={!pack.unlocked}\n                    className={`w-full relative overflow-hidden rounded-2xl border-2 transition-all p-5 text-left flex flex-col \n                      ${isSelected \n                        ? 'bg-neutral-800/80 border-indigo-500 shadow-xl shadow-indigo-500/10' \n                        : 'bg-neutral-900 border-neutral-800 hover:bg-neutral-800/40'}\n                      ${!pack.unlocked ? 'opacity-70 grayscale' : ''}\n                    `}\n                  >\n                     <div className=\"flex justify-between items-start mb-2\">\n                        <h3 className=\"text-xl font-bold text-white flex items-center gap-2\">\n                          {pack.name} \n                        </h3>\n                        {pack.unlocked ? (\n                           <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors \n                              ${isSelected ? 'bg-indigo-500 border-indigo-500' : 'border-neutral-600'}`}>\n                              {isSelected && <CheckCircle2 className=\"w-4 h-4 text-white\" />}\n                           </div>\n                        ) : (\n                           <span className=\"flex items-center gap-1.5 text-xs font-semibold bg-neutral-800 text-neutral-400 px-3 py-1.5 rounded-full border border-neutral-700\">\n                             <Lock className=\"w-3.5 h-3.5\" />\n                           </span>\n                        )}\n                     </div>\n                     <p className=\"text-sm text-neutral-400 mb-4\">{pack.description}</p>\n                     <div className=\"flex items-center justify-between mt-auto\">\n                        <span className={`text-sm font-bold ${pack.unlocked ? 'text-green-400' : 'text-neutral-300'}`}>\n                           {pack.unlocked ? 'Desbloqueado' : pack.price}\n                        </span>\n                        {!pack.unlocked && (\n                           <div className=\"bg-indigo-600 text-white text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5 hover:bg-indigo-500 transition-colors\">\n                              <ShoppingCart className=\"w-3.5 h-3.5\" /> Comprar\n                           </div>\n                        )}\n                     </div>\n                  </button>\n                )\n             })}\n          </div>\n\n          <div className=\"fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-neutral-900 via-neutral-900 to-transparent\">\n             <div className=\"max-w-md mx-auto\">\n                <button\n                  onClick={iniciarJuego}\n                  className=\"w-full bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl px-6 py-4 font-medium transition-colors shadow-lg shadow-indigo-600/20 text-lg flex justify-center items-center gap-2\"\n                >\n                  <Play className=\"w-5 h-5\" />\n                  ¡Comenzar Juego!\n                </button>\n             </div>\n          </div>\n        </div>\n      )}\n\n      {gameState === \"game\" && (\n        <div className=\"max-w-lg w-full flex flex-col gap-8 h-full min-h-[80vh] animate-in fade-in duration-500\">\n           <header className=\"flex items-center justify-between sticky top-0 bg-neutral-900/80 backdrop-blur-md py-4 z-10 border-b border-neutral-800\">\n              <div>\n                 <p className=\"text-neutral-400 text-sm font-medium\">Turno actual</p>\n                 <h2 className=\"text-2xl font-bold text-white flex items-center gap-2\">\n                    {jugadores[turnoActualIndex]}\n                 </h2>\n              </div>\n              <div className=\"bg-neutral-800 px-3 py-1.5 rounded-lg text-sm text-neutral-300 font-medium\">\n                 Cartas: {cartasJugadas.size} / {mazoActivo.length}\n              </div>\n           </header>\n          \n          <div className=\"flex-1 flex flex-col items-center justify-center py-8\">\n            <div className=\"relative w-64 h-64 sm:w-80 sm:h-80 mb-12\">\n               {/* Fixed Indicator */}\n               <div className=\"absolute top-0 left-1/2 -ml-3 -mt-4 w-0 h-0 border-l-[12px] border-r-[12px] border-t-[20px] border-l-transparent border-r-transparent border-t-white z-20 drop-shadow-md\"></div>\n               \n               {/* Wheel */}\n               <div \n                 className=\"w-full h-full rounded-full border-4 border-neutral-800 shadow-2xl relative overflow-hidden\"\n                 style={{\n                   transform: `rotate(${rotation}deg)`,\n                   transition: girando ? 'transform 2.5s cubic-bezier(0.25, 0.1, 0.25, 1)' : 'none'\n                 }}\n               >\n                 {/* CSS Conic Gradient for slices */}\n                 <div className=\"absolute inset-0 w-full h-full\" style={{\n                    background: 'conic-gradient(#facc15 0 60deg, #4ade80 60deg 120deg, #f87171 120deg 180deg, #60a5fa 180deg 240deg, #c084fc 240deg 300deg, #fb923c 300deg 360deg)'\n                 }} />\n                 \n                 {/* Slices separators and content */}\n                 <div className=\"absolute inset-0 w-full h-full\">\n                    {[0, 60, 120, 180, 240, 300].map((deg, i) => (\n                       <div key={`sep-${i}`} className=\"absolute w-[2px] h-1/2 bg-neutral-800/20 top-0 left-1/2 -ml-[1px] z-10\" style={{ transformOrigin: 'bottom', transform: `rotate(${deg}deg)` }} />\n                    ))}\n                    {categoriasConfig.map((cat, i) => {\n                       const rotationAngle = cat.startDeg + 30; // Center of the 60-degree slice\n                       return (\n                         <div \n                           key={`cat-${i}`} \n                           className=\"absolute top-0 flex flex-col items-center justify-start pt-6 sm:pt-8 h-1/2 w-[120px] left-1/2 -ml-[60px]\"\n                           style={{ \n                             transformOrigin: 'bottom center', \n                             transform: `rotate(${rotationAngle}deg)`,\n                             color: '#171717'\n                           }}\n                         >\n                           <cat.icon className=\"w-6 h-6 sm:w-8 sm:h-8 mb-1 sm:mb-2 opacity-80\" />\n                           <span className=\"text-[10px] sm:text-xs font-bold uppercase text-center leading-tight opacity-90\">\n                             {cat.name}\n                           </span>\n                         </div>\n                       );\n                    })}\n                 </div>\n                 \n                 {/* Center Dot */}\n                 <div className=\"absolute top-1/2 left-1/2 w-8 h-8 -ml-4 -mt-4 bg-neutral-900 rounded-full border-4 border-white shadow-inner flex items-center justify-center z-10\" />\n               </div>\n            </div>\n\n            <button\n               onClick={girarRuleta}\n               disabled={girando || cartaActual !== null}\n               className=\"bg-white hover:bg-neutral-200 disabled:bg-neutral-800 disabled:text-neutral-500 text-neutral-900 px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-white/10 transition-all flex items-center gap-2 transform active:scale-95 disabled:active:scale-100\"\n            >\n               {girando ? (\n                  <>Girando...</>\n               ) : cartaActual ? (\n                  <>Carta Mostrada</>\n               ) : (\n                  <>\n                     <Shuffle className=\"w-5 h-5\" /> Girar Ruleta\n                  </>\n               )}\n            </button>\n            \n            {/* Card Display */}\n            {cartaActual && (\n               <div className=\"w-full mt-12 animate-in slide-in-from-bottom-8 fade-in duration-500\">\n                  <div className=\"bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700/50 p-6 sm:p-8 rounded-3xl shadow-2xl relative overflow-hidden\">\n                     {(() => {\n                        const cat = categoriasConfig.find(c => c.id === cartaActual.categoriaId);\n                        const CurrentIcon = cat?.icon || Sparkles;\n                        return (\n                          <>\n                            <div className=\"absolute top-0 right-0 w-48 h-48 rounded-full blur-3xl -mr-16 -mt-16 opacity-20\" style={{ backgroundColor: cat?.color || '#6366f1' }}></div>\n                            <div className=\"flex items-center gap-3 mb-6 relative z-10\">\n                              <span className=\"inline-flex items-center justify-center p-2.5 rounded-xl bg-neutral-800 border border-neutral-700 shadow-sm\" style={{ color: cat?.color || '#fff' }}>\n                                <CurrentIcon className=\"w-5 h-5 sm:w-6 sm:h-6\" />\n                              </span>\n                              <span className=\"text-sm sm:text-base font-bold tracking-wider uppercase text-neutral-300\">\n                                {cat?.name || `Categoría ${cartaActual.categoriaId}`}\n                              </span>\n                            </div>\n                          </>\n                        );\n                     })()}\n                     <p className=\"text-xl sm:text-2xl font-medium leading-relaxed text-white relative z-10\">\n                        {cartaActual.texto}\n                     </p>\n                  </div>\n               </div>\n            )}\n          </div>\n          \n          <div className=\"pb-8 pt-4\">\n             <button\n                onClick={siguienteTurno}\n                disabled={girando || !cartaActual}\n                className=\"w-full border-2 border-neutral-700 hover:border-neutral-500 disabled:border-neutral-800 disabled:opacity-50 text-white rounded-xl px-6 py-4 font-medium transition-colors flex justify-center items-center gap-2\"\n             >\n                Siguiente Turno\n             </button>\n          </div>\n        </div>\n      )}\n    </div>\n  );\n}\n"
+}

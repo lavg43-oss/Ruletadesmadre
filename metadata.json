@@ -1,0 +1,8 @@
+{
+  "name": "Rueda del Desmadre",
+  "description": "Un juego de fiesta con ruleta y cartas de preguntas y retos para grupos de amigos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
